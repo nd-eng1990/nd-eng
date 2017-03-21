@@ -1,0 +1,248 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/*color:rgb(56,187,160);*/
+body {
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	direction: rtl;
+	    background-image: url('../images/BGImage.jpg');
+}
+
+footer {
+	margin: 50px 0;
+}
+#bs-example-navbar-collapse-1 {
+	direction: rtl;
+}
+.nav {
+	float: right;
+}
+.navbar-nav > li {
+	float: right;
+}
+.navbar-header {
+	float: right;
+}
+.col-md-8 {
+	float: right;
+	margin-bottom: 25px;
+}
+.img-footer {
+	width: 100%;
+}
+.img-responsive {
+	width: 100%;
+	border: 2px solid rgb(56,160,170);
+	height: 250px;
+}
+.col-md-8 > section:first-child {
+	display: block;
+}
+.col-md-8 > section {
+	display: none;
+}
+.page-header {
+	margin-top: 5px;
+	border-bottom: 1px solid rgb(56,160,170);
+	border-top: 1px solid rgb(56,160,170);
+	padding-top: 10px;
+}
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+	width: 12px !important;
+	height: 12px !important;
+	border-width: 6px !important;
+}
+.fotorama__nav--dots .fotorama__nav__frame {
+	width: 27px !important;
+	height: 28px !important;
+}
+.fotorama__dot {
+	width: 10px !important;
+	height: 10px !important;
+}
+hr {
+	border-top: 1px solid rgb(56,160,170);
+}
+.decoratedImage{
+	width: 100%;
+}
+input {
+	margin: 5px 3px 5px 5px;
+	border: 1px solid gray;
+	padding: 5px 7px 2px 4px;
+	width: 43%;
+	float: right;
+}
+#submitMail {
+	padding: 5px 6px 5px 7px;
+	/* float: left; */
+	width: 27%;
+	margin: 10px 0px 0 0;
+	background-color: dimgrey;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 17px;
+	position: relative;
+}
+.contact {
+	font-size: 20px;
+	f#messageolor: #494949;
+}
+.contactUs > p {
+
+	font-size: 18px;
+}
+.about > p {
+	line-height: 30px;
+	font-size: 18px;
+}
+.INeng > p {
+	line-height: 30px;
+	font-size: 18px;
+}
+#submit {
+	color: #ffffff;
+	font-weight: 600;
+	background: #494949;
+	width: 23%;
+	margin-top: 2px;
+}
+#message {
+	margin: 5px 3px 5px 5px;
+	border: 1px solid gray;
+	padding: 5px 5px 3px 3px;
+	width: 88%;
+	height: 60px;
+}
+.well {
+	float: right;
+	background-color: rgb(56,160,170);
+	padding: 10px;
+	margin-bottom: 25px;
+	padding-bottom: 8px;
+}
+.gallery > h2 {
+	padding-bottom: 9px;
+	margin: 40px 0 20px;
+	border-bottom: 1px solid rgb(56,160,170);
+}
+.img-mobile {
+	display: none;
+}
+.navbar-inverse {
+	background-color: rgb(56,160,170);
+	border-color: rgb(56,160,170);
+}
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #494949;
+}
+#footer {
+}
+.ulFooter {
+	padding: 0;
+	bottom: 25px;
+	position: relative;
+}
+.ulFooter > li {
+	display: inline-block;
+	font-size: 22px;
+	margin: 0 5px 0 8px;
+	color: #494949;
+}
+.ulFooter > .four {
+	margin-left: 80px;
+}
+#footer > span {
+	font-size: 38px;
+	font-weight: bold;
+	float: right;
+	margin: 0 40px 0 0;
+	bottom: 27px;
+	position: relative;
+}
+.bold {
+	width: 88%;
+	border: 2px solid rgb(56,160,170);
+	float: right;
+}
+.bullet{
+	background: #494949;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 992px) {
+	.well {
+		display: none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.INeng > p {
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.about > p {
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.well {
+		display: none;
+	}
+	.col-md-4 {
+		float: right;
+		margin-top: 30px;
+		display: none;
+	}
+	.col-md-8 {
+    /* float: right; */
+    margin-bottom: 25px;
+    margin: 0 auto;
+	}
+	.navbar-nav > li {
+		float: none;
+	}
+	.row {
+    margin: 0;
+	}
+	.fotorama {
+	}
+	.img-responsive {
+		display: none;
+	}
+	.img-mobile {
+		display: block;
+		height: 140px;
+		width: 100%;
+	}
+	.responssive {
+		display: none;
+	}
+	h1 {
+		font-size: 27px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	#footer > span {
+		margin: 0 20px 0 0;
+	}
+	.bold {
+		width: 80%;
+	}
+	.ulFooter > li {
+		font-size: 17px;
+		margin: 0px 0px 0 0;
+		display: inline-block;
+	}
+	.ulFooter .mobile_foot{
+		display: table-column-group;
+	}
+}
