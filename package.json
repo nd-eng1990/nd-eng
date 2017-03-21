@@ -1,0 +1,19 @@
+{
+  "name": "nd-eng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nd-eng1990/nd-eng.git"
+  },
+  "author": "nir dalal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nd-eng1990/nd-eng/issues"
+  },
+  "homepage": "https://github.com/nd-eng1990/nd-eng#readme"
+}
